@@ -244,9 +244,17 @@ sudo apt install steam-installer
 ```
 sudo apt install mesa-vulkan-drivers libglx-mesa0:i386 mesa-vulkan-drivers:i386 libgl1-mesa-dri:i386
 ```
+* Install i386 packages for Nvidia:
+```
+sudo apt install nvidia-driver-libs:i386
+```
+* Optional: install Mangohud and Goverlay to control Graphics settings and GPU:
+```
+sudo apt install mangohud mangohud:i386 goverlay
+```
 * Optional: install gaming utilities:
 ```
-sudo apt install gamemode mangohud goverlay wine winetricks gamescope
+sudo apt install gamemode wine winetricks gamescope
 ```
 * Optional: environment variables for Nvidia GPU usage:
 ```
