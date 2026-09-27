@@ -192,17 +192,23 @@ sudo apt update && sudo apt install codium
 ```
 # Update the system
 sudo apt update
+
 # Install Apache
 sudo apt install apache2
+
 # Install MariaDB (MySQL)
 sudo apt install mariadb-server
+
 # Install PHP
 sudo apt install php libapache2-mod-php php-mysql php-cli php-curl php-gd php-mbstring php-xml php-zip
+
 # Enable modules
 sudo a2enmod rewrite
 sudo systemctl restart apache2
+
 # Secure MariaDB installation
 sudo mysql_secure_installation
+
 # Start and enable services
 sudo systemctl enable apache2
 sudo systemctl enable mariadb
