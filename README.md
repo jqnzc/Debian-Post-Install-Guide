@@ -187,6 +187,29 @@ echo 'deb [arch=amd64,arm64 signed-by=/usr/share/keyrings/vscodium-archive-keyri
 sudo apt update && sudo apt install codium
 ```
 
+## LAMP stack
+* To install a LAMP (Linux, Apache, MySQL, PHP) stack in Debian install the following packages:
+```
+# Update the system
+sudo apt update
+# Install Apache
+sudo apt install apache2
+# Install MariaDB (MySQL)
+sudo apt install mariadb-server
+# Install PHP
+sudo apt install php libapache2-mod-php php-mysql php-cli php-curl php-gd php-mbstring php-xml php-zip
+# Enable modules
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+# Secure MariaDB installation
+sudo mysql_secure_installation
+# Start and enable services
+sudo systemctl enable apache2
+sudo systemctl enable mariadb
+sudo systemctl start apache2
+sudo systemctl start mariadb
+```
+
 ## OpenModelica install
 
 * To install OpenModelica in Debian you can use the official open source binaries from https://openmodelica.org/download/download-linux/
