@@ -1,6 +1,6 @@
-# Debian Post Install Guide
+# Debian Linux Post Installation Guide
 
-Note: This guide assumes the user has been able to realize a clean installation of the Debian GNU/Linux operating system in any of its current maintained versions: Debian 11, Debian 12, Debian 13. This guide will help you setup the non-free/proprietary repositories, firewall, drivers, multimedia codecs, browsers, flatpak and flathub repositories, and Steam gaming packages.
+Note: This guide assumes the user has been able to install the Debian GNU/Linux operating system in any of its current maintained versions: Debian 11, Debian 12, Debian 13. This guide will help you setup the non-free/proprietary repositories, firewall, drivers, multimedia codecs, browsers, flatpak and flathub repositories, and Steam gaming packages.
 
 You can find the Live and Net installation ISO of D11, D12, D13 and other Debian versions here:
 * https://cdimage.debian.org/cdimage/archive/ > `General cdimage archive`
@@ -11,7 +11,7 @@ You can use `Rufus`, `balenaEtcher` or `dd` to burn the ISO file into a USB acco
 * `balenaEtcher` > `Windows` `macOS` `Linux`
 * `dd` > `Linux`
 
-## Debian Post Installation Guide - Main
+## Things to do after installing Debian Linux
 
 * Things to do after installing Debian 11, aka `Bullseye`
 * Things to do after installing Debian 12, aka `Bookworm`
